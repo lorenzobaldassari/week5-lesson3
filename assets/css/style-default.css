@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  /* background-color: rgba(43, 37, 35, 0.877); */
+  font-family: "Kanit", sans-serif;
+}
+
+.container {
+  width: 90%;
+  text-align: center;
+  margin: 1em auto 1em auto;
+  color: #701d02;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 250px;
+  background-color: #fef7e2;
+  border-radius: 92px;
+  margin-bottom: 3em;
+}
+button img {
+  width: 46px;
+  margin-right: 0.5em;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  width: 100%;
+  border-radius: 75px 75px 0 0;
+}
+.image1 {
+  width: 100%;
+}
+.button1 {
+  border: none;
+  font-size: 1em;
+  font-weight: 700;
+  width: 130px;
+  height: 50px;
+  color: #701d02;
+  border-radius: 50px;
+  background-color: #ffdf7f;
+
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  font-size: 2em;
+  width: 260px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 1em;
+  font-weight: 600;
+}
+div > img + div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card {
+  margin: 1em 0;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fef7e2;
+  border-radius: 80px;
+  align-items: inherit;
+}
+h1 + div > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#cart {
+  margin-left: 6.2em;
+  margin-bottom: 1em;
+  height: 2.3em;
+  width: 11em;
+}
+span {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+img + div > p {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+img + div > p + p {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+h2 {
+  font-size: 1.6em;
+  margin: 1.4em 0;
+  font-weight: 500;
+}
+h3 {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin: 1em 0;
+}
+.article {
+  text-align: initial;
+  padding: 2em;
+  background-color: #fef7e2;
+}
+.article p {
+  margin-bottom: 2em;
+  font-weight: 200;
+}
